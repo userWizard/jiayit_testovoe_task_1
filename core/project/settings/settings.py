@@ -22,6 +22,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'rest_framework',
     
     # first party apps
     'core.api.v1.tasks.apps.TasksConfig'
@@ -82,7 +83,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'ru'
 
-TIME_ZONE = 'Moscow'
+TIME_ZONE = 'Europe/Moscow'
 
 USE_I18N = True
 
